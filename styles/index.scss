@@ -457,13 +457,15 @@ icon-like {
 
 .box6 {
     display: flex;
-   
+   justify-content: center;
     font-family: 'Josefin Sans', sans-serif;
     max-width: 1770px;
     width: 100%;
     min-height: 731px;
     background-image: url("../images/background5.png");
     .title3 {
+        display: flex;
+        justify-content: center;
         max-width: 390px;
         width: 100%;
         min-height: 26px;
@@ -492,6 +494,9 @@ icon-like {
         min-height: 287px;
     }
     .h3-rec3 {
+        display: flex;
+        justify-content: center;
+        text-align: center;
         padding-left: 20px;
         width: 150px;
         height: 26px;
@@ -499,12 +504,13 @@ icon-like {
         font-weight: 400;
         font-size: 20px;
         line-height: 26px;
-        display: flex;
-        align-items: center;
         color: #FEFEFE;
     }
     .p-rec3 {
+        display: flex;
+        text-align: center;
         padding-left: 20px;
+        padding-right: 5px;
         max-width: 581px;
         width: 100%;
         min-height: 165px;
