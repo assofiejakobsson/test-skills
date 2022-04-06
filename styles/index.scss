@@ -167,6 +167,7 @@
         height: 26px;
         letter-spacing: 2.4000000953674316px;
         padding-top: 20px;
+        text-transform: uppercase;
 
    
     }
@@ -181,6 +182,7 @@
         align-items: center;
         margin-left: 20px;
         align-self: start;
+
         
         
     }
@@ -321,8 +323,12 @@
         margin: none;
         align-items: center;
         .img {
-            width: 60%;
+            width: 50%;
             margin-top: 20px;
+        }
+        .p2 {
+            margin-right: 20px;
+            
         }
     }
 }
@@ -511,11 +517,14 @@
 
 }
 
-/*@media screen and (min-width: 320px) and (max-width: 420px) {
-    .btn4 {
-        width: 170px;
+@media screen and (min-width: 320px) and (max-width: 420px) {
+    .box5 {
+        justify-content: center;
     }
-}*/
+    .box4 {
+        justify-content: center;
+    }
+}
 
 .box6 {
     
@@ -647,8 +656,8 @@
         display: flex;
         align-items: center;
         letter-spacing: 3.36px;
-        text-transform: uppercase;
         color: #FFFFFF;
+        text-transform: uppercase;
     }
     .p-box7 {
         width: 196px;
